@@ -1,0 +1,53 @@
+{
+  "id": "token-action-hud-swnr",
+  "title": "Token Action HUD - Systems Without Number",
+  "description": "Token Action HUD support for the Systems Without Number (swnr) game system. Adds a quick-access HUD for weapons, skills, saves, powers, and more.",
+  "authors": [
+    {
+      "name": "neepster",
+      "url": "https://github.com/neepster"
+    }
+  ],
+  "url": "https://github.com/neepster/SWN_Token_Action_HUD",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "styles": [
+    "./styles/token-action-hud-swnr.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "swnr",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "token-action-hud-core",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.0"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/neepster/SWN_Token_Action_HUD/main/module.json",
+  "download": "https://github.com/neepster/SWN_Token_Action_HUD/releases/latest/download/token-action-hud-swnr.zip",
+  "readme": "https://github.com/neepster/SWN_Token_Action_HUD#readme",
+  "socket": false,
+  "protected": false,
+  "library": false
+}

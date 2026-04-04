@@ -1,0 +1,16 @@
+/**
+ * token-action-hud-swnr — minimal system styles
+ *
+ * TAH Core handles virtually all layout/styling. Only add overrides here
+ * that are specific to how SWNR actions should look.
+ */
+
+/* Highlight equipped/active items (weapons with active toggle, etc.) */
+.token-action-hud .tah-action.active {
+    outline: 1px solid var(--color-border-highlight, #ff6400);
+}
+
+/* Skill rank badge — make it stand out slightly */
+.token-action-hud .tah-action .tah-action-info1 {
+    font-weight: bold;
+}

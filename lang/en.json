@@ -1,0 +1,51 @@
+{
+    "tokenActionHud": {
+        "swnr": {
+            "tab": {
+                "combat":    "Combat",
+                "abilities": "Abilities",
+                "inventory": "Equipment"
+            },
+            "group": {
+                "weapons":       "Weapons",
+                "skills":        "Skills",
+                "powers":        "Powers",
+                "armor":         "Armor",
+                "cyberware":     "Cyberware",
+                "foci":          "Foci",
+                "saves":         "Saves",
+                "attributes":    "Attributes",
+                "combatActions": "Combat Actions"
+            },
+            "actionType": {
+                "weapon":     "Weapon",
+                "skill":      "Skill",
+                "power":      "Power",
+                "armor":      "Armor",
+                "cyberware":  "Cyberware",
+                "feature":    "Focus",
+                "save":       "Save",
+                "attribute":  "Attribute",
+                "initiative": "Initiative",
+                "morale":     "Morale",
+                "utility":    "Utility"
+            },
+            "action": {
+                "initiative":       "Initiative",
+                "morale":           "Morale Check",
+                "rest":             "Rest (Night)",
+                "endScene":         "End Scene",
+                "toggleVisibility": "Toggle Visibility"
+            },
+            "info": {
+                "damage": "Damage",
+                "hit":    "Hit",
+                "rank":   "Rank",
+                "strain": "Strain",
+                "target": "Target",
+                "mod":    "Modifier",
+                "score":  "Score"
+            }
+        }
+    }
+}
