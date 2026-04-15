@@ -9,10 +9,10 @@
     }
   ],
   "url": "https://github.com/neepster/SWN_Token_Action_HUD",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "12",
-    "verified": "13"
+    "verified": "14"
   },
   "esmodules": [
     "./scripts/init.js"
