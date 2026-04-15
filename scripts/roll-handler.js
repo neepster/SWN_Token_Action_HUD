@@ -170,7 +170,7 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
             if (!stat) return
 
             const mod = stat.mod ?? 0
-            const label = game.i18n.localize(`swnr.stat.${attrKey}`) || attrKey.toUpperCase()
+            const label = game.i18n.localize(`swnr.stat.long.${attrKey}`) || attrKey.toUpperCase()
             const modStr = mod >= 0 ? `+${mod}` : String(mod)
 
             const roll = new Roll(`2d6${mod !== 0 ? ` + ${mod}` : ''}`, actor.getRollData?.() ?? {})

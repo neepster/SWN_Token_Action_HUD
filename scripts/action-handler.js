@@ -159,7 +159,7 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
                 const target = saveData[save.id]
                 if (target === undefined || target === null) continue
 
-                const name = coreModule.api.Utils.i18n(save.labelKey) || save.id
+                const name = game.i18n.localize(save.labelKey) || save.id
                 const encodedValue = ['save', save.id].join(this.delimiter)
                 const actionTypeName = coreModule.api.Utils.i18n(ACTION_TYPE.save ?? '')
                 const listName = `${actionTypeName ? `${actionTypeName}: ` : ''}${name}`
@@ -187,7 +187,7 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
                 const statData = stats[attr.id]
                 if (!statData) continue
 
-                const name = coreModule.api.Utils.i18n(attr.labelKey) || attr.id.toUpperCase()
+                const name = game.i18n.localize(attr.labelKey) || attr.id.toUpperCase()
                 const encodedValue = ['attribute', attr.id].join(this.delimiter)
                 const actionTypeName = coreModule.api.Utils.i18n(ACTION_TYPE.attribute ?? '')
                 const listName = `${actionTypeName ? `${actionTypeName}: ` : ''}${name}`

@@ -69,12 +69,12 @@ export const ITEM_TYPE = {
  * Attribute keys and their i18n labels
  */
 export const ATTRIBUTES = [
-    { id: 'str', labelKey: 'swnr.stat.str' },
-    { id: 'dex', labelKey: 'swnr.stat.dex' },
-    { id: 'con', labelKey: 'swnr.stat.con' },
-    { id: 'int', labelKey: 'swnr.stat.int' },
-    { id: 'wis', labelKey: 'swnr.stat.wis' },
-    { id: 'cha', labelKey: 'swnr.stat.cha' }
+    { id: 'str', labelKey: 'swnr.stat.long.str' },
+    { id: 'dex', labelKey: 'swnr.stat.long.dex' },
+    { id: 'con', labelKey: 'swnr.stat.long.con' },
+    { id: 'int', labelKey: 'swnr.stat.long.int' },
+    { id: 'wis', labelKey: 'swnr.stat.long.wis' },
+    { id: 'cha', labelKey: 'swnr.stat.long.cha' }
 ]
 
 /**
