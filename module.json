@@ -9,7 +9,7 @@
     }
   ],
   "url": "https://github.com/neepster/SWN_Token_Action_HUD",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "12",
     "verified": "14"
@@ -39,7 +39,7 @@
         "id": "token-action-hud-core",
         "type": "module",
         "compatibility": {
-          "minimum": "2.0"
+          "minimum": "2.1"
         }
       }
     ]
