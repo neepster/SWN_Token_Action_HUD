@@ -16,7 +16,7 @@ export const CORE_MODULE = {
 /**
  * Minimum TAH Core version required by this module
  */
-export const REQUIRED_CORE_MODULE_VERSION = '2.1'
+export const REQUIRED_CORE_MODULE_VERSION = '2.0'
 
 /**
  * Action types — values are i18n keys
